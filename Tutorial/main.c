@@ -9,7 +9,7 @@ int main()
     printf("There once was a man named %s \n", characterName);
     printf("He was %d years old \n", characterAge);
     printf("How are you doing? \n");
-
+    
     return 0;
 }
 ;
