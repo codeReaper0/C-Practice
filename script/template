@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "Please provide filename you want to create: \c"
+read -r file
+touch $file.c
+echo '#include <stdio.h>' > $file.c
+echo '' >> $file.c
+echo 'int main()' >> $file.c
+echo '{' >> $file.c
+echo '	printf();' >> $file.c
+echo '	return 0;' >> $file.c
+echo '}' >> $file.c
