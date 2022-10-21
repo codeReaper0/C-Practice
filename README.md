@@ -1,4 +1,3 @@
 My C Tutorial Repository
 
-Hello.c 
-	- How to display integers with the printf function
+0x00 - Hello World
