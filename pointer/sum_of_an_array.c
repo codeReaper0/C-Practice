@@ -1,5 +1,5 @@
 #include <stdio.h>
-//sum of SuElements in an array
+//sum of Elements in an array
 
 int SumOfElements(int A[], int size)
 {
