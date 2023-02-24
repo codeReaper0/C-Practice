@@ -1,22 +1,19 @@
 #include <stdio.h>
-//sum of SuElements in an array
+#include <string.h>
 
-int SumOfElements(int A[], int size)
+void print(char *C)
 {
-	int i, sum = 0;
-
-	for(i = 0; i < size; i++)
+	while (*C != '\0')
 	{
-		sum+= A[i];
+		printf("%c", *C);
+		C++;
 	}
-	return sum;
-}
+	printf("\n");
+} 
 
 int main()
 {
-	int A[] = {2, 4, 5, 8, 1};
-	int size = sizeof(A)/sizeof(A[0]);
-	int total = SumOfElements(A, size);
+	char C[] = "John";
 
-	printf("Sum of elements = %d\n", total);
+	print(C);
 }
